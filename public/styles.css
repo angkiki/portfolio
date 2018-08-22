@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+}
+
+/* =============================================== */
+/* -------------BLOCK 1 LIAOS--------------------- */
+/* =============================================== */
+
+#block-1 {
+  background-color: black;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#ac {
+  background: radial-gradient(white 35px, #4AFFFF);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.iac {
+  border-radius: 5px;
+  height: 200px;
+  width: 20px;
+  background-color: white;
+}
+
+#iac1 {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 0px;
+  left: 90px;
+}
+
+#ac > .iac:nth-child(2) {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0px;
+  left: 90px;
+}
+
+#ac > .iac:nth-child(3) {
+  transform: rotate(150deg);
+  position: absolute;
+  top: 0px;
+  left: 90px;
+}
+
+#ring {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  height: 240px;
+  width: 240px;
+  background:
+    radial-gradient(transparent 60%, #4FAAAA),
+    radial-gradient(circle at 90% 75%, transparent, transparent, transparent, #29e5e5);
+  border-radius: 50%;
+}
+
+#ring-center {
+  background: transparent;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+#center {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  background: radial-gradient(#4AFFFF 10%, transparent);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+#title {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#subtitle {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+}
+
+#disclaimer {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#sub-subtitle {
+  text-align: center;
+  color: white;
+}
+
+/* =============================================== */
+/* -------------BLOCK 2 LIAOS--------------------- */
+/* =============================================== */
+
+#block-2 {
+  background-color: #b2a9a9;
+  height: auto;
+}
+
+#block-2-right-block {
+  padding: 50px 150px;
+}
+
+#block-2-title {
+  font-size: 22px;
+  color: white;
+  text-align: justify;
+}
+
+/* =============================================== */
+/* -------------BLOCK 3 LIAOS--------------------- */
+/* =============================================== */
+
+#block-3 {
+  height: auto;
+  padding-top: 30px;
+}
+
+#block-3-title {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#block-3-paragraph {
+  padding: 40px 100px;
+  font-size: 18px;
+  font-style: italic;
+  text-align: justify;
+}
+
+/* =============================================== */
+/* -------------BLOCK 4 LIAOS--------------------- */
+/* =============================================== */
+
+#block-4 {
+  background-color: #b2a9a9;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+#block-4-title {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#block-4-ul {
+  list-style: none;
+  font-size: 22px;
+  margin-left: 100px;
+}
+
+.block-4-li > a {
+  color: white;
+}
+
+.block-4-li > a:hover {
+  text-decoration: none;
+}

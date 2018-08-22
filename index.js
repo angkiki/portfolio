@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 
+app.use(express.static('public'));
+
 app.get('/', (request, response) => {
-  response.send('Hello World');
+  response.send('index.html');
 })
 
 app.get('*', (request, response) => {
