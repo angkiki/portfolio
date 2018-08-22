@@ -9,8 +9,8 @@ body {
 #block-1 {
   background-color: black;
   height: auto;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 175px;
+  padding-bottom: 175px;
 }
 
 #ac {
@@ -115,7 +115,7 @@ body {
 }
 
 #block-2-right-block {
-  padding: 50px 150px;
+  padding: 100px 150px;
 }
 
 #block-2-title {
@@ -147,6 +147,15 @@ body {
   text-align: justify;
 }
 
+#block-3-image-holder {
+  padding: 20px;
+}
+
+#block-3-image-holder > img {
+  height: 100%;
+  width: 100%;
+}
+
 /* =============================================== */
 /* -------------BLOCK 4 LIAOS--------------------- */
 /* =============================================== */
@@ -169,7 +178,12 @@ body {
 #block-4-ul {
   list-style: none;
   font-size: 22px;
-  margin-left: 100px;
+  margin-left: 30%;
+}
+
+.block-4-li {
+  display: block;
+  margin: 10px auto;
 }
 
 .block-4-li > a {
@@ -178,4 +192,9 @@ body {
 
 .block-4-li > a:hover {
   text-decoration: none;
+}
+
+.footer-icons {
+  height: 32px;
+  width: 32px;
 }
