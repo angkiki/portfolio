@@ -157,11 +157,35 @@ body {
 }
 
 /* =============================================== */
+/* -------------SKILLS BLOCK --------------------- */
+/* =============================================== */
+#skills-block {
+  background-color: #b2a9a9;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.other-skills-block {
+  padding-top: 30px;
+}
+
+.other-skills {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 70px;
+}
+
+.other-skills > img {
+  margin-right: 20px;
+}
+
+/* =============================================== */
 /* -------------BLOCK 4 LIAOS--------------------- */
 /* =============================================== */
 
 #block-4 {
-  background-color: #b2a9a9;
+  background-color: black;
   height: auto;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -197,4 +221,10 @@ body {
 .footer-icons {
   height: 32px;
   width: 32px;
+}
+
+#git-logo {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
 }
